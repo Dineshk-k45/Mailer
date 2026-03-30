@@ -1,0 +1,372 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     
+}
+body{
+    margin: 0px auto;
+    width: 600px;
+    
+}
+   
+
+
+header{
+    height: 620px;
+    width: 600px;
+    background-color:rgb(96, 239, 96);
+}
+header nav img{
+    width: 180px;
+    
+}
+header nav{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.leftcontent a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+    
+    background-color: black;
+    color: aliceblue;
+    border-radius: 30px;
+}
+#banner a:hover{
+    color: rgb(11, 133, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+
+
+.leftcontent h2{
+    font-size: 26px;
+    padding-bottom: 70px;
+    text-transform: capitalize;
+    
+}
+.bottomtext{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+
+
+
+  
+
+   
+#offerpage{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 248, 255);
+    
+    
+}
+.offertext{
+    padding: 20px;
+}
+.offerimage{
+    padding: 10px;
+}
+.offertext h1{
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.offertext p.para{
+    color: rgb(65, 244, 65);
+    padding-bottom: 10px;
+}
+.offertext p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.offerimage img{
+    width: 280px;
+}
+.offertext a{
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color:rgb(65, 244, 65);
+    color: aliceblue;
+    border-radius: 30px;
+    margin: 10px 50px;
+}
+#offerpage a:hover{
+    color: rgb(43, 255, 39);
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+#productlist {
+    height: 400px;
+    width: 600px;
+    background-color: rgb(255, 249, 249);
+}
+.firstproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.secondproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.thirdproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.fourthproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+#productlist .botton{
+  
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(65, 244, 65);
+    color: aliceblue;
+    margin: 20px 200px;
+    border-radius: 30px;
+    
+}
+#productlist .botton:hover{
+    color:rgb(43, 255, 39) ;
+    background-color:black ;
+}
+
+
+
+
+
+
+#featureproduct{
+    width: 600px;
+    height: 350px;
+    background-color: rgb(251, 255, 246);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#featureproduct img{
+    width: 180px;
+}
+.product1 p{
+    padding-bottom: 5px;
+    margin: 0px 30px;
+    
+}
+.product2 p{
+    padding-bottom: 5px;
+    margin: 0px 30px;
+}
+.product3 p{
+     padding-bottom: 5px;
+    margin: 0px 30px;
+
+}
+.product1 .amount{
+    margin: 0px 60px;
+    padding-top: 5px;
+    color: rgb(65, 244, 65);
+}
+.product2 .amount{
+    margin: 0px 60px;
+    padding-top: 5px;
+    color: rgb(65, 244, 65);
+
+}
+.product3 .amount{
+    margin: 0px 60px;
+    padding-top: 5px;
+    color: rgb(65, 244, 65);
+}
+#featureproduct img:hover{
+    
+    background-color:rgb(96, 255, 93);
+}
+
+
+
+
+
+
+
+
+#groceryimage{
+    width:600px ;
+    height: 800px;
+    background-color: rgb(255, 255, 250);
+    padding: px;  
+}
+#groceryimage img{
+    padding: 30px;
+    margin: 0px 50px;
+}
+#groceryimage p{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#groceryimage a{
+    text-decoration: none;
+    font-size: 22px;
+   padding: 10px 25px;
+   margin: 50px 200px;
+   background-color:rgb(65, 244, 65);
+   color: white;
+   border-radius: 20px; 
+    
+}
+#groceryimage a:hover{
+    color:rgb(43, 255, 39) ;
+    background-color: black;
+}
+#groceryimage h4{
+    font-size: 14px;
+    padding: 50px 30px;
+}
+#groceryimage h6{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+#groceryimage .icon{
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+#groceryimage .icon i{
+    
+    padding: 10px;
+    border-style: solid;
+    border-radius: 50%;
+   
+}
+#groceryimage .footer{
+    width: 600px;
+    height: 50px;
+    background-color:rgb(65, 244, 65);
+}
+#groceryimage i:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section{ 
+    height:1700px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.fullbanner{
+    display: flex;
+    justify-content: center;
+}
+header{
+    
+    height:600px;
+    width: 600px;
+    background-color: lightgreen;
+}
+header nav img{
+    display: flex;
+    height: 100;
+    width: 160px;
+}
+header nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;   
+}
+header nav a{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}*/
